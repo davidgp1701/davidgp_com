@@ -1,0 +1,48 @@
+baseURL = "https://davidgp.com"
+languageCode = "es-ES"
+DefaultContentLanguage = "es"
+title = "Blog de David García Pérez"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+
+pygmentsStyle = "trac"
+pygmentsCodeFences = true
+pygmetnsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+
+[Params]
+  subtitle = "Temas aleatorios sobre los que me apetece hablar."
+  mainSections = ["post","posts"]
+  commit = false
+  rss = true
+  comments = false
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = false
+  showRelatedPosts = true
+  hideAuthor = true
+
+[Author]
+  name = "David García Pérez"
+  github = "davidgp1701"
+  twitter = "davidgp"
+  linkedin = "david-garcía-pérez-0a165a27"
+  instagram = "davidgpfotografia"
+  youtube = "user/davidgpcom" 
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Sobre mí"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
